@@ -63,7 +63,7 @@ function generatePassword() {
   var randomPassword = []
   for (let i = 0; i < passwordLength; i++) {
     var thisCharacter = randomCharacter();
-    randomPassword.push(random);
+    randomPassword.push(thisCharacter);
     console.log(thisCharacter);
   }
 
